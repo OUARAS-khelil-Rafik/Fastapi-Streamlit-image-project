@@ -13,7 +13,7 @@ pip install --upgrade pip
 ```bash
 jupyter nbconvert --to notebook --execute --inplace ./notebooks/train_image_classifier.ipynb
 ```
-Ouvrir `notebooks/01_train_image_classifier.ipynb` et exécuter les cellules dans l'ordre.
+Ouvrir `notebooks/train_image_classifier.ipynb` et exécuter les cellules dans l'ordre.
 
 Le notebook produit `model/image_classifier.pkl`.
 
