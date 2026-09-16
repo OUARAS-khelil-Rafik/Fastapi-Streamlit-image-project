@@ -1,0 +1,4 @@
+curl http://127.0.0.1:8000/
+curl http://127.0.0.1:8000/health
+curl -X POST "http://127.0.0.1:8000/predict" -F "file=@data/cat/cat_000.png"
+# Swagger: http://127.0.0.1:8000/docs
